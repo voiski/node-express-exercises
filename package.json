@@ -5,6 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "lecture1": "node src/lecture1/exercise${no}.js",
+    "server": "node src/lecture${no}/index.js",
+    "test": "node src/lecture${no}/test.js"
   },
   "keywords": [
     "nodejs"
