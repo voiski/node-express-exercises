@@ -1,0 +1,19 @@
+{
+  "name": "node-express-exercises",
+  "version": "1.0.0",
+  "description": "Node application with the node express exercises.",
+  "main": "src/index.js",
+  "scripts": {
+    "lecture1": "node src/lecture1/exercise${no}.js",
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Alan Voiski <alannunesv@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "winston": "^2.2.0"
+  }
+}
